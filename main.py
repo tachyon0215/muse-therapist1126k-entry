@@ -21,7 +21,7 @@ it emits a fixed string, touches no network, and uses no randomness.
 import os
 from pathlib import Path
 
-# The winning line, pinned as a bare constant so the output can never drift.
+# The winning line, kept as a plain constant so the output can never drift.
 DIAGNOSIS = "Diagnosis: you don't have attachment issues - you have 47 open tabs, each one a version of you avoiding one email."
 
 # What actually gets written: the line plus exactly one trailing newline.
